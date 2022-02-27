@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Home } from './components/home/Home';
+// import { Home } from './components/home/Home';
 // import {Routes,Route} from "react-router-dom";
 // import {Productdetails} from './components/productdetails/Productdetails'
 
@@ -48,25 +48,26 @@ import { Home } from './components/home/Home';
 // }
 
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Address } from './components/address/Address';
+// import { Routes, Route } from "react-router-dom";
 // import { Login } from "./components/authentication/login/LogIn";
 // import { SignUp } from "./components/authentication/signUp/SignUp";
 // import { Home } from "./components/home/Home";
-import {Product} from "./components/Product";
-import { Navbar } from "./components/navbar/Navbar";
+// import {Product} from "./components/Product";
+// import { Navbar } from "./components/navbar/Navbar";
 
  function App() {
   return <div>
-     
+    <Address />
      {/* <Login/>
      <SignUp/>
      <Home/> */}
-     <Routes>
+     {/* <Routes>
      <Route path="/" element={<Navbar />}></Route>
 
      <Route path="/product" element={<Product/>}></Route>
 
-     </Routes>
+     </Routes> */}
   </div>
  }
 // </div>
