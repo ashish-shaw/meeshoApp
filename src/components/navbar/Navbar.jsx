@@ -35,7 +35,7 @@ export const Navbar = () => {
 
          <PhoneAndroidRounded className="phone" />
          <p className="text">Download App</p>
-    
+         
          <div id="mob">
              </div>
          <div className="line"></div>
@@ -51,7 +51,6 @@ export const Navbar = () => {
          </div>
          </div>
       </div>
-      
       <div id="dropd">
           <p className="texthover" id="eth" onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)}>Women Ethnic</p>
           <p className="texthover" onMouseEnter={() => setDrop1(true)} onMouseLeave={() => setDrop1(false)}>Women Western</p>
@@ -63,6 +62,7 @@ export const Navbar = () => {
           <p className="texthover" onMouseEnter={() => setDrop7(true)} onMouseLeave={() => setDrop7(false)}>Kids</p>
           <p className="texthover" id="elec" onMouseEnter={() => setDrop8(true)} onMouseLeave={() => setDrop8(false)}>Electronics</p>
       </div>
+      
       {(Drop==true)?(<div className="down">
        <div className="dowp">
            <h4>All Women Ethnic</h4>

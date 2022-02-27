@@ -2,7 +2,7 @@
 import './App.css';
 import { Home } from './components/home/Home';
 // import {Routes,Route} from "react-router-dom";
-import {Productdetails} from './components/productdetails/Productdetails'
+// import {Productdetails} from './components/productdetails/Productdetails'
 
 
 //  function App() {
@@ -97,17 +97,17 @@ export default App
 
 // export default App;
 
-import {CartNavbar} from './components/cart/CartNavbar'
-function App() {
-  return (
-    <div >
-      <CartNavbar/>
+// import {CartNavbar} from './components/cart/CartNavbar'
+// function App() {
+//   return (
+//     <div >
+//       <CartNavbar/>
       
-      {/* <Routes>
-            <Route path='/' element={<Home/>} />
-      </Routes> */}
-      {/* <Productdetails/> */}
-    </div>
-  );
-}
+//       {/* <Routes>
+//             <Route path='/' element={<Home/>} />
+//       </Routes> */}
+//       {/* <Productdetails/> */}
+//     </div>
+//   );
+// }
 
