@@ -11,23 +11,7 @@ export function Login() {
   const [exandForm, setExpandForm] = useState(true)
   const [OTP, setOTP] = useState("")
 //
-// const [resend, setResend] = useState(60)
-// const count_ref = useRef()
-//   useEffect(()=>{
-//         ResendOTP()
-     
-//   },[])
 
-
-//  const ResendOTP = ()=>{
-//  count_ref.current =  setInterval(()=>{
-//       setResend((p)=>p-1)
-//   },1000)
- 
-// }
-// if(resend === 0){
-//   clearInterval(count_ref.current)
-// }
 
 
 
@@ -151,16 +135,3 @@ export function Login() {
 }
 
 
-// return <div>
-// <form onSubmit={requestOTP}>
-//   <div id='sign-in-button'></div>
-//     <input type="tel" name="mobile" placeholder="enter number" value={phoneNumber} onChange={(e)=>{
-//       setPhoneNumber(e.target.value)
-//     }}/>
-//     <button>Submit</button>
-// </form>
-// <form onSubmit={verifyOTP}>
-//     <input type="number" name="otp" placeholder="enter otp" value={OTP} onChange={(e)=>setOTP(e.target.value)}/>
-//     <button>Submit</button>
-// </form>
-// </div>
